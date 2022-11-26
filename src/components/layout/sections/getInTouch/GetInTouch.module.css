@@ -1,0 +1,118 @@
+.GetInTouch {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 64px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.GetInTouch h3 {
+  font-size: 40px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.GetInTouch p {
+  margin: 16px 0 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #b3b3b3;
+  max-width: 313px;
+}
+
+.Form {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  width: 100%;
+}
+
+.Form div:nth-of-type(1) {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+}
+.Form div:nth-of-type(2) {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 100%;
+}
+.Form div:nth-of-type(3) {
+  grid-area: 2 / 1 / 3 / 3;
+}
+.Form div:nth-of-type(4) {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+.Form div input,
+.Form div textarea {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.Form div input {
+  padding: 10px 16px;
+  width: 100%;
+}
+
+.Form div textarea {
+  padding: 16px;
+  resize: none;
+  height: 200px;
+}
+
+.Form div input::placeholder,
+.Form div textarea::placeholder {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #999999;
+}
+
+.Form button {
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 8px 32px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1280px) {
+  .Form div:nth-of-type(1) {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 320px;
+  }
+  .Form div:nth-of-type(2) {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 320px;
+  }
+
+  .GetInTouch p {
+    max-width: 413px;
+  }
+
+  .Form {
+    max-width: 656px;
+  }
+
+  .Form button {
+    font-size: 18px;
+  }
+}

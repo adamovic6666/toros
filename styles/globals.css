@@ -1,9 +1,98 @@
+@font-face {
+  font-family: "Georgia-pro-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia-pro-bold"),
+    url("/fonts/georgia-pro-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Georgia-pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia-pro"), url("/fonts/georgia-pro.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #e3e3e3;
+  --secondary-color: #00264a;
+  --text-color-dark: #808080;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1rem;
+  line-height: 100%;
+  font-family: "Georgia-pro", sans-serif;
+  font-style: normal;
+}
+
+body {
+  font-size: calc(0.20181634712411706vw + 0.625em);
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  margin: 0;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 73px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 45px;
+}
+h3 {
+  font-size: 28px;
+  line-height: 160%;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 27px;
 }
 
 a {
@@ -11,16 +100,36 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+p {
+  margin: 0px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.hamburger-react {
+  z-index: 5;
+}
+
+.hamburger-react > div {
+  background-color: var(--text-color-dark) !important;
+}
+
+@media screen and (min-width: 992px) {
+  .body {
+    min-height: 0vw;
+    font-size: calc(0.6122848200312989vw + 0.3092723004694837em);
   }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 3.88em;
+  }
+}
+
+@media screen and (min-width: 1560px) {
   body {
-    color: white;
-    background: black;
+    font-size: 0.90625em;
   }
 }

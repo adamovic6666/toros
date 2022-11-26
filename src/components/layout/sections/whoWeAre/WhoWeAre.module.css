@@ -1,0 +1,105 @@
+.WhoWeAre {
+  padding: 124px 0;
+  position: relative;
+}
+
+.WhoWeAre > span {
+  display: none;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: 0%;
+  top: 0px;
+}
+
+.WhoWeAre h2 {
+  color: var(--text-color-dark);
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.ContentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: calc(100% - 32px);
+  justify-content: center;
+  gap: 80px;
+}
+
+.ContentWrapper:nth-of-type(1) {
+  margin-bottom: 64px;
+}
+
+.TextWrapper {
+  max-width: 353px;
+}
+
+.TextWrapper p {
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--text-color-dark);
+}
+
+.TextWrapper p:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.CardWrapper > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #e3e3e3;
+  border-radius: 0px 0px 12px 12px;
+  padding: 24px 32px;
+}
+
+.CardWrapper > div h4 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: var(--secondary-color);
+}
+
+.CardWrapper > div span {
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--text-color-dark);
+  margin: 8px 0 24px;
+}
+
+.CardWrapper > div div {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.CardWrapper svg {
+  width: 48px;
+  height: 48px;
+}
+
+.ImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 409px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContentWrapper {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .CardWrapper > div h4 {
+    font-size: 28px;
+  }
+
+  .CardWrapper > div span {
+    font-size: 24px;
+  }
+
+  .ImageWrapper {
+    width: 320px;
+  }
+}

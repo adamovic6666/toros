@@ -1,0 +1,85 @@
+.Header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background-color: white;
+}
+
+.Nav {
+  display: none;
+}
+
+.NavWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.Header,
+.NavWrapper,
+.NavList {
+  display: flex;
+  align-items: center;
+}
+
+.NavList {
+  list-style: none;
+  padding: 0;
+  margin-left: 5rem;
+  gap: 1.5rem;
+}
+
+.NavList a {
+  text-transform: uppercase;
+  transition: 0.3s all;
+  line-height: 18px;
+  color: var(--text-color-dark);
+}
+
+.NavList a:hover {
+  color: var(--blue);
+}
+
+.Header > div:last-of-type > div {
+  z-index: 4;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .Nav {
+    display: block;
+  }
+
+  .NavWrapper > div:last-of-type {
+    display: none;
+  }
+
+  .Header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+}
+
+/* @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 992px) {
+
+
+@media only screen and (max-width: 1280px) {
+
+} */
