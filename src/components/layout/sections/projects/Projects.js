@@ -43,7 +43,7 @@ const Projects = () => {
         </ul>
       </div>
       <div className={classes.ProjectsHeadingWrapper}>
-        <h3>Questions we've helped clients answer.</h3>
+        <h3>Questions we&apos;ve helped clients answer.</h3>
       </div>
     </div>
   );

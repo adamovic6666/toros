@@ -48,11 +48,12 @@ const WhoWeAre = () => {
               With a background in financial journalism, he has written
               extensively for publications including the Financial Times, the
               Guardian, and Politico Europe. Covering Central Europe and the
-              Balkans for many years, he has interviewed many of the region's
-              leading political and business figures, and reported on attempted
-              coups, mass protests, economic crises, and the aftermath of war.
-              He also has extensive experience writing economic and political
-              analysis of markets in the MENA region and South East Asia.
+              Balkans for many years, he has interviewed many of the
+              region&apos;s leading political and business figures, and reported
+              on attempted coups, mass protests, economic crises, and the
+              aftermath of war. He also has extensive experience writing
+              economic and political analysis of markets in the MENA region and
+              South East Asia.
             </p>
 
             <p>
@@ -99,22 +100,22 @@ const WhoWeAre = () => {
               Souhir Mzali is an experienced independent consultant and
               researcher focusing on Africa. Until December 2020, Souhir was
               regional editor at an emerging markets-focused publishing and
-              consultancy company, overseeing research in some of Africa's
+              consultancy company, overseeing research in some of Africa&apos;s
               largest markets. Having held a range of roles, including Africa
               analyst, she has a deep understanding of economies including
               Morocco, Egypt, and Kenya, and a web of contacts across the
               continent. She has worked on topics from macro-economics to
-              agriculture and fintech, interviewing some of Africa's most
+              agriculture and fintech, interviewing some of Africa&apos;s most
               prominent government and business leaders, and building
               relationships for both editorial and commercial work.
             </p>
             <p>
               Her recent work has included detailed analysis of the Covid-19
-              pandemic's impact on private equity and venture capital in Africa,
-              and a study of opportunities in African agriculture, including
-              agritech as well as a report on sustainable industrialisation
-              across the region. Souhir has also worked for a leading
-              Africa-focused business information service.
+              pandemic&apos;s impact on private equity and venture capital in
+              Africa, and a study of opportunities in African agriculture,
+              including agritech as well as a report on sustainable
+              industrialisation across the region. Souhir has also worked for a
+              leading Africa-focused business information service.
             </p>
             <p>
               A British and Tunisian dual citizen, Souhir speaks fluent English,
