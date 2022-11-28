@@ -18,18 +18,25 @@ const Contact = () => {
           3rd Floor Chancery House St Nicholas Way Sutton SM1 1JB United Kingdom
         </p>
         <div className={classes.LinksWrapper}>
-          <Image
-            height={40}
-            width={40}
-            alt="card-image"
-            src="/assets/linkedIn.png"
-          />
-          <Image
-            height={40}
-            width={40}
-            alt="card-image"
-            src="/assets/email.png"
-          />
+          <a
+            href="https://www.linkedin.com/company/toros-advisory/people/"
+            target="_blank"
+          >
+            <Image
+              height={40}
+              width={40}
+              alt="card-image"
+              src="/assets/linkedIn.png"
+            />
+          </a>
+          <a href="mailto:arm@torosadvisory.com">
+            <Image
+              height={40}
+              width={40}
+              alt="card-image"
+              src="/assets/email.png"
+            />
+          </a>
         </div>
       </div>
     </div>

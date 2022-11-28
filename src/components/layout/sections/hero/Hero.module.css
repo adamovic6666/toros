@@ -16,7 +16,7 @@
 }
 
 .Parallax {
-  background-image: url("/assets/hero-img.png");
+  background-image: url("/assets/hero-img.jpg");
   min-height: 100vh;
   width: 100%;
   background-attachment: fixed;

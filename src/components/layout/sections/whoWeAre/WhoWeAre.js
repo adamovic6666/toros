@@ -13,7 +13,9 @@ const WhoWeAre = () => {
               <Image
                 layout="fill"
                 alt="card-image"
-                src="/assets/card-img-1.png"
+                src="/assets/card-image-1.png"
+                objectFit="cover"
+                objectPosition="top"
               />
             </div>
             <div>
@@ -22,18 +24,26 @@ const WhoWeAre = () => {
               </h4>
               <span>Founding Director</span>
               <div>
-                <Image
-                  height={40}
-                  width={40}
-                  alt="card-image"
-                  src="/assets/linkedIn.png"
-                />
-                <Image
-                  height={40}
-                  width={40}
-                  alt="card-image"
-                  src="/assets/email.png"
-                />
+                <a
+                  href="https://www.linkedin.com/in/andrew-macdowall-4456ab19/"
+                  target="_blank"
+                >
+                  <Image
+                    height={40}
+                    width={40}
+                    alt="card-image"
+                    src="/assets/linkedIn.png"
+                  />
+                </a>
+
+                <a href="mailto:arm@torosadvisory.com">
+                  <Image
+                    height={40}
+                    width={40}
+                    alt="card-image"
+                    src="/assets/email.png"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -69,7 +79,8 @@ const WhoWeAre = () => {
               <Image
                 layout="fill"
                 alt="card-image"
-                src="/assets/card-img-2.png"
+                src="/assets/card-image-2.png"
+                objectFit="cover"
               />
             </div>
 
@@ -80,18 +91,25 @@ const WhoWeAre = () => {
               </h4>
               <span>Senior Associate</span>
               <div>
-                <Image
-                  height={40}
-                  width={40}
-                  alt="card-image"
-                  src="/assets/linkedIn.png"
-                />
-                <Image
-                  height={40}
-                  width={40}
-                  alt="card-image"
-                  src="/assets/email.png"
-                />
+                <a
+                  href="https://www.linkedin.com/in/souhir-mzali-3bb16462/"
+                  target="_blank"
+                >
+                  <Image
+                    height={40}
+                    width={40}
+                    alt="card-image"
+                    src="/assets/linkedIn.png"
+                  />
+                </a>
+                <a href="mailto:sm@torosadvisory.com">
+                  <Image
+                    height={40}
+                    width={40}
+                    alt="card-image"
+                    src="/assets/email.png"
+                  />
+                </a>
               </div>
             </div>
           </div>
