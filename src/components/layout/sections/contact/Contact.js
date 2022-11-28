@@ -21,6 +21,7 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/company/toros-advisory/people/"
             target="_blank"
+            rel="noreferrer"
           >
             <Image
               height={40}

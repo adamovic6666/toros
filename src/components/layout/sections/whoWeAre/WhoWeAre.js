@@ -27,6 +27,7 @@ const WhoWeAre = () => {
                 <a
                   href="https://www.linkedin.com/in/andrew-macdowall-4456ab19/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Image
                     height={40}
@@ -94,6 +95,7 @@ const WhoWeAre = () => {
                 <a
                   href="https://www.linkedin.com/in/souhir-mzali-3bb16462/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Image
                     height={40}
