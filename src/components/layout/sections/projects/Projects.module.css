@@ -33,6 +33,16 @@
   font-size: 16px;
   line-height: 140%;
   color: var(--text-color-dark);
+  list-style: none;
+}
+
+.ProjectsListWrapper ul li::before {
+  content: "\2022";
+  color: var(--secondary-color);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .ProjectsHeadingWrapper {

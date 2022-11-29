@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import NavLink from "../../ui/NavLink";
 import Hamburger from "hamburger-react";
 import Logo from "../../ui/Logo";
@@ -8,9 +8,22 @@ import { NAV_LINKS } from "../../../pageData/data";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
+  const [headerIsVisible, setHeaderIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setHeaderIsVisible(window.pageYOffset > 500);
+
+    document.addEventListener("scroll", handleScroll);
+
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <header className={classes.Header}>
+    <header
+      className={`${classes.Header} ${headerIsVisible ? classes.Open : ""}`}
+    >
       <div className={`${classes.NavWrapper} container`}>
         <Logo />
         <nav className={classes.Nav}>

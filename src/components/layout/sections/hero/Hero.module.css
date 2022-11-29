@@ -3,16 +3,18 @@
   width: 100%;
   position: relative;
   height: 100vh;
+  animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
+  overflow: hidden;
 }
 
 .Hero h1 {
-  color: white;
   position: absolute;
   left: 50%;
-  top: calc(50% + 45.8px);
+  top: 50%;
   transform: translate(-50%, -50%);
   font-size: 48px;
   text-align: center;
+  animation: fade-in 4s ease-in-out;
 }
 
 .Parallax {
@@ -23,11 +25,39 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  animation: scaling-hero-anim 4s 0.25s cubic-bezier(0, 0.71, 0.4, 0.97)
+    forwards;
+  will-change: transform;
 }
 
 @media only screen and (min-width: 1280px) {
   .Hero h1 {
     width: max-content;
     font-size: 64px;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes scaling-hero-anim {
+  from {
+    transform: scale(1.25);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes clip-hero-anim {
+  from {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
