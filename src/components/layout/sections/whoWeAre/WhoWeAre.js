@@ -13,7 +13,7 @@ const WhoWeAre = () => {
               <Image
                 layout="fill"
                 alt="card-image"
-                src="/assets/card-image-1.png"
+                src="/assets/andrew.jpg"
                 objectFit="cover"
                 objectPosition="top"
               />
@@ -80,7 +80,7 @@ const WhoWeAre = () => {
               <Image
                 layout="fill"
                 alt="card-image"
-                src="/assets/card-image-2.png"
+                src="/assets/souhir.jpg"
                 objectFit="cover"
               />
             </div>

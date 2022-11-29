@@ -21,29 +21,58 @@ const Header = () => {
   }, []);
 
   return (
-    <header
-      className={`${classes.Header} ${headerIsVisible ? classes.Open : ""}`}
-    >
-      <div className={`${classes.NavWrapper} container`}>
-        <Logo />
-        <nav className={classes.Nav}>
-          <ul className={classes.NavList}>
-            {NAV_LINKS.map(({ name, id, href }) => (
-              <NavLink href={`#${href}`} key={id} setOpen={setOpen}>
-                {name}
-              </NavLink>
-            ))}
-          </ul>
-        </nav>
-        <MobileNav
-          isOpen={isOpen}
-          setOpen={() => {
-            setOpen(false);
-          }}
-        />
-        <Hamburger toggled={isOpen} toggle={setOpen} />
-      </div>
-    </header>
+    <>
+      <header
+        className={`${classes.Header} ${classes.Initial} ${
+          headerIsVisible ? classes.Close : ""
+        }`}
+      >
+        <div className={`${classes.NavWrapper} container`}>
+          <Logo headerIsVisible={headerIsVisible} />
+          <nav className={classes.Nav}>
+            <ul className={classes.NavList}>
+              {NAV_LINKS.map(({ name, id, href }) => (
+                <NavLink href={`#${href}`} key={id} setOpen={setOpen}>
+                  {name}
+                </NavLink>
+              ))}
+            </ul>
+          </nav>
+          <MobileNav
+            isOpen={isOpen}
+            setOpen={() => {
+              setOpen(false);
+            }}
+          />
+          <Hamburger toggled={isOpen} toggle={setOpen} />
+        </div>
+      </header>
+      <header
+        className={`${classes.Header} ${classes.OnScroll} ${
+          headerIsVisible ? classes.Open : ""
+        }`}
+      >
+        <div className={`${classes.NavWrapper} container`}>
+          <Logo headerIsVisible={headerIsVisible} />
+          <nav className={classes.Nav}>
+            <ul className={classes.NavList}>
+              {NAV_LINKS.map(({ name, id, href }) => (
+                <NavLink href={`#${href}`} key={id} setOpen={setOpen}>
+                  {name}
+                </NavLink>
+              ))}
+            </ul>
+          </nav>
+          <MobileNav
+            isOpen={isOpen}
+            setOpen={() => {
+              setOpen(false);
+            }}
+          />
+          <Hamburger toggled={isOpen} toggle={setOpen} />
+        </div>
+      </header>
+    </>
   );
 };
 

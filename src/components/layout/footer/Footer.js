@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <footer className={classes.Footer}>
       <div className="container">
-        <p>Toros Advisory Limited 2022 © All rights reserved.</p>
+        <p>Copyright © 2022 Toros Advisory Limited. All rights reserved.</p>
+
         <Link href="/politika-privatnosti">Privacy policy</Link>
       </div>
     </footer>

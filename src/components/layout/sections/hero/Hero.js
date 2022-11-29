@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className={`${classes.Hero}`}>
       <div className={classes.Parallax}></div>
-      <h1>IDENTIFY OPPORTUNITY, MANAGE RISK.</h1>
+      <h1>Identify opportunity. manage risk.</h1>
     </div>
   );
 };

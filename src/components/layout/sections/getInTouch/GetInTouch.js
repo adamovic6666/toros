@@ -30,7 +30,7 @@ const GetInTouch = () => {
       <h3>Get in touch</h3>
       <p>
         To hear more about our services, and to discuss potential projects,
-        please get in touch
+        please get in touch.
       </p>
       <form className={classes.Form} action="" onSubmit={handleSubmit}>
         <div>

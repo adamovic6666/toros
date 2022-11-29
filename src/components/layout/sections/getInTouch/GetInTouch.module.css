@@ -11,6 +11,7 @@
   font-size: 40px;
   line-height: 45px;
   color: #ffffff;
+  text-transform: capitalize;
 }
 
 .GetInTouch p {
@@ -78,6 +79,7 @@
 }
 
 .Form button {
+  font-family: "Georgia";
   background-color: transparent;
   font-size: 12px;
   line-height: 140%;

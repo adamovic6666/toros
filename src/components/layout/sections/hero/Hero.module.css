@@ -3,7 +3,7 @@
   width: 100%;
   position: relative;
   height: 100vh;
-  animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
+  /* animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98); */
   overflow: hidden;
 }
 
@@ -15,6 +15,9 @@
   font-size: 48px;
   text-align: center;
   animation: fade-in 4s ease-in-out;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-shadow: 4px 4px var(--secondary-color);
 }
 
 .Parallax {
@@ -25,9 +28,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: scaling-hero-anim 4s 0.25s cubic-bezier(0, 0.71, 0.4, 0.97)
-    forwards;
-  will-change: transform;
+  animation: scaling-hero-anim 4s ease-in-out forwards;
+  /* will-change: transform; */
 }
 
 @media only screen and (min-width: 1280px) {
@@ -50,14 +52,14 @@
     transform: scale(1.25);
   }
   to {
-    transform: scale(1.1);
+    transform: scale(1);
   }
 }
-@keyframes clip-hero-anim {
+/* @keyframes clip-hero-anim {
   from {
     clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
   }
   to {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-}
+} */

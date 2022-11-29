@@ -16,6 +16,7 @@
   color: var(--text-color-dark);
   text-align: center;
   margin-bottom: 64px;
+  text-transform: capitalize;
 }
 
 .ContentWrapper {
