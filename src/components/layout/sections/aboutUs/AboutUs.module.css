@@ -78,7 +78,7 @@
 @media only screen and (min-width: 1280px) {
   .About {
     flex-direction: row;
-    height: 590px;
+    height: 760px;
   }
 
   .AboutHeadingWrapper,
@@ -88,7 +88,7 @@
 
   .AboutHeadingWrapper h3 {
     transform: translateX(-204px);
-    font-size: 28px;
+    font-size: 36px;
     text-align: left;
   }
 }

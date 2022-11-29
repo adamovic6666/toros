@@ -18,7 +18,7 @@
 }
 
 :root {
-  --primary-color: #e3e3e3;
+  --primary-color: #f0f0f0;
   --secondary-color: #00264a;
   --text-color-dark: #808080;
 }
@@ -109,6 +109,40 @@ p {
 
 .hamburger-react > div {
   background-color: var(--text-color-dark) !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-button-next {
+  right: 10% !important;
+  color: var(--secondary-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--secondary-color) !important;
+}
+
+.swiper-pagination-bullet,
+.swiper-button-prev.swiper-button-disabled {
+  color: var(--text-color-dark) !important;
+}
+
+.swiper-pagination {
+  bottom: 10% !important;
+}
+
+.swiper-button-prev {
+  left: 10% !important;
 }
 
 @media screen and (min-width: 992px) {

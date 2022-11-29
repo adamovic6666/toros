@@ -11,7 +11,7 @@ const Header = () => {
   const [headerIsVisible, setHeaderIsVisible] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setHeaderIsVisible(window.pageYOffset > 500);
+    const handleScroll = () => setHeaderIsVisible(window.pageYOffset > 1);
 
     document.addEventListener("scroll", handleScroll);
 

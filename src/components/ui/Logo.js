@@ -4,7 +4,7 @@ const Logo = ({ headerIsVisible }) => {
   return (
     <div
       className={`${classes.Logo} ${
-        headerIsVisible ? classes.RegularColor : classes.White
+        headerIsVisible ? classes.RegularColor : ""
       }`}
     >
       <span>Toros</span>

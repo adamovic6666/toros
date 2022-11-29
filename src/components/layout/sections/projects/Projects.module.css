@@ -73,11 +73,25 @@
     padding: 0;
   }
 
+  .ProjectsHeadingWrapper {
+    height: 760px;
+  }
+
   .ProjectsListWrapper ul {
     padding: 64px 0;
   }
 
   .ProjectsHeadingWrapper h3 {
     text-align: left;
+    /* max-width: 300px; */
+    font-size: 36px;
+  }
+
+  .ProjectsListWrapper ul li {
+    font-size: 20px;
+  }
+
+  .ProjectsListWrapper ul li:not(:last-of-type) {
+    margin-bottom: 16px;
   }
 }

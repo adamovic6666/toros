@@ -4,7 +4,8 @@ const Services = () => {
   return (
     <div className={classes.ServicesWrapper}>
       <span id="services"></span>
-      <div className={classes.ServicesImg}></div>
+      <div className={classes.ServicesImgTop}></div>
+      <div className={classes.ServicesImgBottom}></div>
       <div className={classes.Services}>
         <h2>Services</h2>
         <div className={classes.Grid}>
@@ -20,6 +21,20 @@ const Services = () => {
               advised UHNWIs on the media landscape around decentralised
               finance, and shaped strategy on establishing a new news service
               covering the industry.
+            </p>
+          </div>
+          <div>
+            <h4>Communications strategy</h4>
+            <p>
+              With our background in journalism, Toros Advisory also helps
+              selected clients with strategic communications, content strategy,
+              and editing. We have worked with businesses including law firms,
+              major investment funds, white-label publishing outlets, and top PR
+              companies. Recent work has included op-ed writing, editing, and
+              communications strategy for the launch of a major investment fund,
+              and regular advertorial and thought eadership pieces to be placed
+              in publications including the Financial Times, Independent, and
+              Newsweek.
             </p>
           </div>
           <div>
@@ -50,20 +65,6 @@ const Services = () => {
               supported clients in bankruptcy cases in regions including the
               Baltics and the Balkans, and provided insights on a €220m+ deal in
               the Adriatic region that ran into political and legal challenges.
-            </p>
-          </div>
-          <div>
-            <h4>Communications strategy</h4>
-            <p>
-              With our background in journalism, Toros Advisory also helps
-              selected clients with strategic communications, content strategy,
-              and editing. We have worked with businesses including law firms,
-              major investment funds, white-label publishing outlets, and top PR
-              companies. Recent work has included op-ed writing, editing, and
-              communications strategy for the launch of a major investment fund,
-              and regular advertorial and thought eadership pieces to be placed
-              in publications including the Financial Times, Independent, and
-              Newsweek.
             </p>
           </div>
         </div>

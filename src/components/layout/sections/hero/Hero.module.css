@@ -17,7 +17,7 @@
   animation: fade-in 4s ease-in-out;
   text-transform: capitalize;
   font-weight: 600;
-  text-shadow: 4px 4px var(--secondary-color);
+  text-shadow: -4px 4px 4px #00000065;
 }
 
 .Parallax {
