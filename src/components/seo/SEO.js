@@ -1,6 +1,6 @@
 import { NextSeo } from "next-seo";
 import Head from "next/head";
-const SEO = ({ metaTitle }) => {
+const SEO = ({ metaTitle, metaDescription }) => {
   return (
     <>
       <Head>
@@ -11,7 +11,7 @@ const SEO = ({ metaTitle }) => {
       </Head>
       <NextSeo
         title={metaTitle}
-        description="Savremeni sertifikovani reciklažni centar za otkup i reciklažu plastike. Prodaja premijum regranulata po najboljim cenama"
+        description={metaDescription}
         canonical="https://replastic.vercel.app/"
         openGraph={{
           url: "https://replastic.vercel.app/",

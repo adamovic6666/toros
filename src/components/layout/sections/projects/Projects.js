@@ -35,8 +35,9 @@ const Projects = () => {
                 </li>
                 <li>
                   Why has a €220m+ deal in the Adriatic region run into trouble?
+                  Who are the decision-makers?
                 </li>
-                <li> Who are the decision-makers?</li>
+
                 <li>
                   What political trends and stakeholders are shaping the gaming
                   sector in Central Europe?
@@ -53,8 +54,11 @@ const Projects = () => {
                   How does a municipality in the Iberian Peninsula view foreign
                   investors?
                 </li>
-                <li>What is the outlook for EU telecoms policy?</li>
-                <li>How do key stakeholders view the competitive landscape?</li>
+                <li>
+                  What is the outlook for EU telecoms policy? How do key
+                  stakeholders view the competitive landscape?
+                </li>
+
                 <li>What is the reputation of a UK-based investment fund?</li>
                 <li>
                   Who are key stakeholders to consider in a commercial dispute
@@ -78,9 +82,10 @@ const Projects = () => {
               Africa?
             </li>
             <li>
-              Why has a €220m+ deal in the Adriatic region run into trouble?
+              Why has a €220m+ deal in the Adriatic region run into trouble? Who
+              are the decision-makers?
             </li>
-            <li> Who are the decision-makers?</li>
+
             <li>
               What political trends and stakeholders are shaping the gaming
               sector in Central Europe?
@@ -93,8 +98,11 @@ const Projects = () => {
               How does a municipality in the Iberian Peninsula view foreign
               investors?
             </li>
-            <li>What is the outlook for EU telecoms policy?</li>
-            <li>How do key stakeholders view the competitive landscape?</li>
+            <li>
+              What is the outlook for EU telecoms policy? How do key
+              stakeholders view the competitive landscape?
+            </li>
+
             <li>What is the reputation of a UK-based investment fund?</li>
             <li>
               Who are key stakeholders to consider in a commercial dispute in

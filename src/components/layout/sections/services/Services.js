@@ -29,12 +29,10 @@ const Services = () => {
               With our background in journalism, Toros Advisory also helps
               selected clients with strategic communications, content strategy,
               and editing. We have worked with businesses including law firms,
-              major investment funds, white-label publishing outlets, and top PR
-              companies. Recent work has included op-ed writing, editing, and
-              communications strategy for the launch of a major investment fund,
-              and regular advertorial and thought eadership pieces to be placed
-              in publications including the Financial Times, Independent, and
-              Newsweek.
+              white-label publishing outlets, and top PR companies. Recent work
+              has included op-ed writing, editing, and communications strategy
+              for the launch of a major investment fund, and regular advertorial
+              and thought leadership pieces.
             </p>
           </div>
           <div>
@@ -48,13 +46,13 @@ const Services = () => {
             </p>
           </div>
           <div>
-            <h4>Due diligence</h4>
+            <h4>Enhanced due diligence</h4>
             <p>
-              Human intelligence-focused due diligence is at the heart of our
-              business. We have recently provided reports on subjects including
-              the background of a Ukrainian business figure, the track record of
-              a UK-based renewables business, and the ESG performance and
-              political ties of a major Austrian company.
+              Human intelligence-focused enhanced due diligence is at the heart
+              of our business. We have recently provided reports on subjects
+              including the background of a Ukrainian business figure, the track
+              record of a UK-based renewables business, and the ESG performance
+              and political ties of a major Austrian company.
             </p>
           </div>
           <div>

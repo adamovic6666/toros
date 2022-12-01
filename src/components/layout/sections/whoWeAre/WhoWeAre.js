@@ -51,18 +51,17 @@ const WhoWeAre = () => {
               With a background in financial journalism, he has written
               extensively for publications including the Financial Times, the
               Guardian, and Politico Europe. Covering Central Europe and the
-              Balkans for many years, he has interviewed many of the
+              Balkans for many years, he has interviewed many of theo0
               region&apos;s leading political and business figures, and reported
               on attempted coups, mass protests, economic crises, and the
               aftermath of war. He also has extensive experience writing
               economic and political analysis of markets in the MENA region and
               South East Asia.
-            </p>
-
-            <p>
-              He has an MA in social and political sciences from the University
-              of Cambridge and a postgraduate diploma in newspaper journalism
-              from City University, London.
+              <p>
+                He has an MA in social and political sciences from the
+                University of Cambridge and a postgraduate diploma in newspaper
+                journalism from City University, London.
+              </p>
             </p>
           </div>
         </div>
