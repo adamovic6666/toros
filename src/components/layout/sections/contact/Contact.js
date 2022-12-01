@@ -1,5 +1,6 @@
 import classes from "./Contact.module.css";
-import Image from "next/image";
+import LinkedIn from "../../../svgs/LinkedIn";
+import Mail from "../../../svgs/Mail";
 
 const Contact = () => {
   return (
@@ -25,20 +26,10 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <Image
-                height={40}
-                width={40}
-                alt="card-image"
-                src="/assets/linkedIn.png"
-              />
+              <LinkedIn />
             </a>
             <a href="mailto:arm@torosadvisory.com">
-              <Image
-                height={40}
-                width={40}
-                alt="card-image"
-                src="/assets/email.png"
-              />
+              <Mail />
             </a>
           </div>
         </div>

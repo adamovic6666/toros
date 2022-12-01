@@ -145,6 +145,29 @@ p {
   left: 10% !important;
 }
 
+.cls-1 {
+  fill: #b3b3b3;
+  fill-rule: evenodd;
+  transition: 0.3s all ease-in-out;
+  position: relative;
+}
+
+svg {
+  transition: all 0.3s ease;
+}
+
+svg path {
+  transition: all 1s ease-in-out;
+}
+
+svg:hover {
+  transform: scale(1.05) translateY(-4px);
+}
+
+svg:hover path {
+  fill: var(--secondary-color);
+}
+
 @media screen and (min-width: 992px) {
   .body {
     min-height: 0vw;

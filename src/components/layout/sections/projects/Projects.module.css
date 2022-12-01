@@ -1,7 +1,7 @@
 .Projects {
   display: flex;
   position: relative;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .Projects > span {
@@ -62,6 +62,14 @@
   text-align: center;
 }
 
+.Slider {
+  display: none;
+}
+
+.MobileList li:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
 @media only screen and (min-width: 1280px) {
   .Projects {
     flex-direction: row;
@@ -83,7 +91,6 @@
 
   .ProjectsHeadingWrapper h3 {
     text-align: left;
-    /* max-width: 300px; */
     font-size: 36px;
   }
 
@@ -93,5 +100,14 @@
 
   .ProjectsListWrapper ul li:not(:last-of-type) {
     margin-bottom: 16px;
+  }
+
+  .Slider {
+    display: block;
+    height: 100%;
+  }
+
+  .MobileList {
+    display: none;
   }
 }

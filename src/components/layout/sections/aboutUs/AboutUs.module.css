@@ -18,7 +18,11 @@
 }
 
 .AboutHeadingWrapper {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
+  background: url("/assets/about-us-bg-img.png"), var(--secondary-color);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .AboutTextWrapper {

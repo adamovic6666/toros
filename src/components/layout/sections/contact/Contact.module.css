@@ -69,6 +69,16 @@
   gap: 16px;
 }
 
+.LinksWrapper a {
+  width: 40px;
+  height: 40px;
+}
+
+.LinksWrapper a svg {
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (min-width: 600px) {
 }
 
