@@ -123,13 +123,23 @@ p {
   align-items: center;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--text-color-dark) !important;
+  border: 1px solid var(--text-color-dark);
+  padding: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .swiper-button-next {
   right: 10% !important;
-  color: var(--secondary-color) !important;
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--secondary-color) !important;
+  background: var(--text-color-dark) !important;
 }
 
 .swiper-pagination-bullet,

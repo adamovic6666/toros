@@ -17,8 +17,8 @@ const Contact = () => {
           </div>
           <span>Registered address</span>
           <p>
-            3rd Floor Chancery House St Nicholas Way Sutton SM1 1JB United
-            Kingdom
+            3rd Floor <br /> Chancery House <br /> St Nicholas Way <br /> Sutton{" "}
+            <br /> SM1 1JB <br /> United Kingdom
           </p>
           <div className={classes.LinksWrapper}>
             <a

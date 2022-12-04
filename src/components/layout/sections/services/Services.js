@@ -17,8 +17,8 @@ const Services = () => {
               decision-makers and sector experts. Recently we have provided
               reports on pharmaceuticals in a major North African market, EU R&D
               policy, the regional politics of a Gulf jurisdiction, and how a
-              municipal government in Iberia views foreign investors. We’ve also
-              advised UHNWIs on the media landscape around decentralised
+              municipal government in Iberia views foreign investors. We&apos;ve
+              also advised UHNWIs on the media landscape around decentralised
               finance, and shaped strategy on establishing a new news service
               covering the industry.
             </p>
@@ -58,7 +58,7 @@ const Services = () => {
           <div>
             <h4>Dispute support</h4>
             <p>
-              Sometimes organisations ﬁnd themselves in difficulties with local
+              Sometimes organisations find themselves in difficulties with local
               partners or governments. Toros Advisory can help. We have
               supported clients in bankruptcy cases in regions including the
               Baltics and the Balkans, and provided insights on a €220m+ deal in

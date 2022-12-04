@@ -22,6 +22,9 @@ const Projects = () => {
             }}
             navigation={true}
             modules={[Keyboard, Pagination, Navigation]}
+            style={{
+              "--swiper-navigation-size": "16px",
+            }}
           >
             <SwiperSlide>
               <ul>

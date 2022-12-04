@@ -17,7 +17,7 @@ const WhoWeAre = () => {
                 alt="card-image"
                 src="/assets/andrew.jpg"
                 objectFit="cover"
-                objectPosition="top"
+                objectPosition="bottom"
               />
             </div>
             <div>
@@ -42,26 +42,27 @@ const WhoWeAre = () => {
           </div>
           <div className={classes.TextWrapper}>
             <p>
-              Andrew MacDowall is the founding director of Toros Advisory. For
-              more than fifteen years, Andrew has provided insights, analysis,
-              and intelligence on global markets in Europe, Africa, and Asia. He
-              has worked on more than 100 advisory projects across the world.
+              <span>Andrew MacDowall</span>is the founding director of Toros
+              Advisory. For more than fifteen years, Andrew has provided
+              insights, analysis, and intelligence on global markets in Europe,
+              Africa, and Asia. He has worked on more than 100 advisory projects
+              across the world.
             </p>
             <p>
               With a background in financial journalism, he has written
               extensively for publications including the Financial Times, the
               Guardian, and Politico Europe. Covering Central Europe and the
-              Balkans for many years, he has interviewed many of theo0
+              Balkans for many years, he has interviewed many of the
               region&apos;s leading political and business figures, and reported
               on attempted coups, mass protests, economic crises, and the
               aftermath of war. He also has extensive experience writing
               economic and political analysis of markets in the MENA region and
               South East Asia.
-              <p>
-                He has an MA in social and political sciences from the
-                University of Cambridge and a postgraduate diploma in newspaper
-                journalism from City University, London.
-              </p>
+            </p>
+            <p>
+              He has an MA in social and political sciences from the University
+              of Cambridge and a postgraduate diploma in newspaper journalism
+              from City University, London.
             </p>
           </div>
         </div>
@@ -98,17 +99,17 @@ const WhoWeAre = () => {
           </div>
           <div className={classes.TextWrapper}>
             <p>
-              Souhir Mzali is an experienced independent consultant and
-              researcher focusing on Africa. Until December 2020, Souhir was
-              regional editor at an emerging markets-focused publishing and
-              consultancy company, overseeing research in some of Africa&apos;s
-              largest markets. Having held a range of roles, including Africa
-              analyst, she has a deep understanding of economies including
-              Morocco, Egypt, and Kenya, and a web of contacts across the
-              continent. She has worked on topics from macro-economics to
-              agriculture and fintech, interviewing some of Africa&apos;s most
-              prominent government and business leaders, and building
-              relationships for both editorial and commercial work.
+              <span> Souhir Mzali</span> is an experienced independent
+              consultant and researcher focusing on Africa. Until December 2020,
+              Souhir was regional editor at an emerging markets-focused
+              publishing and consultancy company, overseeing research in some of
+              Africa&apos;s largest markets. Having held a range of roles,
+              including Africa analyst, she has a deep understanding of
+              economies including Morocco, Egypt, and Kenya, and a web of
+              contacts across the continent. She has worked on topics from
+              macro-economics to agriculture and fintech, interviewing some of
+              Africa&apos;s most prominent government and business leaders, and
+              building relationships for both editorial and commercial work.
             </p>
             <p>
               Her recent work has included detailed analysis of the Covid-19
