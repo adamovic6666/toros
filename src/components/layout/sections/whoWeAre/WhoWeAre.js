@@ -42,7 +42,7 @@ const WhoWeAre = () => {
           </div>
           <div className={classes.TextWrapper}>
             <p>
-              <span>Andrew MacDowall</span>is the founding director of Toros
+              <span>Andrew MacDowall </span>is the founding director of Toros
               Advisory. For more than fifteen years, Andrew has provided
               insights, analysis, and intelligence on global markets in Europe,
               Africa, and Asia. He has worked on more than 100 advisory projects

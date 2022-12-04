@@ -1,7 +1,7 @@
 .WhoWeAre {
   padding: 124px 0;
   position: relative;
-  background-color: rgb(254, 254, 254);
+  background-color: rgb(245, 245, 245);
 }
 
 .WhoWeAre > span {
@@ -48,9 +48,10 @@
 }
 
 .CardWrapper {
-  box-shadow: rgba(17, 12, 46, 0.068) 0px 18px 60px 0px;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 4px 12px;
   height: max-content;
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .CardWrapper > div:nth-of-type(2) {
@@ -63,8 +64,7 @@
 }
 
 .CardWrapper > div h4 {
-  font-weight: 600;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 32px;
   color: var(--secondary-color);
 }
@@ -106,10 +106,6 @@
   .ContentWrapper {
     flex-direction: row;
     width: 100%;
-  }
-
-  .CardWrapper > div h4 {
-    font-size: 28px;
   }
 
   .CardWrapper > div span {
