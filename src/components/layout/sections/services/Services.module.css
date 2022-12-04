@@ -36,7 +36,7 @@
   height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 30% 40%;
+  background-position: 30% 25%;
 }
 
 .Services {
@@ -66,42 +66,12 @@
 .Grid {
   display: flex;
   flex-direction: column;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
-  grid-column-gap: 64px;
-  grid-row-gap: 40px;
 }
 
-.Grid > div {
+.Left,
+.Right {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
-}
-
-.Grid > div:nth-of-type(1) {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.Grid > div:nth-of-type(2) {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.Grid > div:nth-of-type(3) {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.Grid > div:nth-of-type(4) {
-  grid-area: 2 / 2 / 3 / 3;
-  transform: translateY(-110px);
-}
-.Grid > div:nth-of-type(5) {
-  grid-area: 3 / 2 / 4 / 3;
-  transform: translateY(-160px);
-}
-
-.Grid > div:nth-of-type(2) p,
-.Grid > div:nth-of-type(3) p,
-.Grid > div:nth-of-type(4) p,
-.Grid > div:nth-of-type(5) p {
-  max-width: 270px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -113,13 +83,12 @@
   }
 
   .Grid {
-    display: grid;
+    flex-direction: row;
+    gap: 64px;
   }
 
-  .Grid > div {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    text-align: left;
+  .Left > div:not(:last-of-type),
+  .Right > div:not(:last-of-type) {
+    margin-bottom: 40px;
   }
 }
