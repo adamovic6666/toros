@@ -22,13 +22,13 @@ const Contact = () => {
           </p>
           <div className={classes.LinksWrapper}>
             <a
-              href="https://www.linkedin.com/company/toros-advisory/people/"
+              href="https://www.linkedin.com/company/toros-advisory/"
               target="_blank"
               rel="noreferrer"
             >
               <LinkedIn />
             </a>
-            <a href="mailto:arm@torosadvisory.com">
+            <a href="mailto:info@torosadvisory.com">
               <Mail />
             </a>
           </div>
