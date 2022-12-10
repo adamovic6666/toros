@@ -119,6 +119,12 @@
     height: 100%;
   }
 
+  .Slider ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+
   .MobileList {
     display: none;
   }

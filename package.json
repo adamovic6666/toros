@@ -19,6 +19,6 @@
     "react": "18.2.0",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "18.2.0",
-    "swiper": "^6.0.1"
+    "swiper": "^8.4.5"
   }
 }

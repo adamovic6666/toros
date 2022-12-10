@@ -1,11 +1,11 @@
 import classes from "./Projects.module.css";
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Keyboard } from "swiper";
 
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper-bundle.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const Projects = () => {
   return (
@@ -13,16 +13,23 @@ const Projects = () => {
       <span id="projects"></span>
       <div className={classes.ProjectsListWrapper}>
         <div className={classes.Slider}>
-          {/* <Swiper organicArrows={true}>
-            <SwiperSlide
-              slidesPerView={1}
-              spaceBetween={30}
-              pagination={{
-                clickable: true,
-              }}
-              navigation={true}
-              modules={[Keyboard, Pagination, Navigation]}
-            >
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            keyboard={{
+              enabled: true,
+            }}
+            modules={[Keyboard, Pagination, Navigation]}
+            className="mySwiper"
+            style={{
+              "--swiper-navigation-size": "16px",
+            }}
+          >
+            <SwiperSlide>
               <ul>
                 <li>
                   What is the outlook for renewable energy in Poland and
@@ -36,7 +43,6 @@ const Projects = () => {
                   Why has a €220m+ deal in the Adriatic region run into trouble?
                   Who are the decision-makers?
                 </li>
-
                 <li>
                   What political trends and stakeholders are shaping the gaming
                   sector in Central Europe?
@@ -48,8 +54,11 @@ const Projects = () => {
               </ul>
             </SwiperSlide>
             <SwiperSlide>
-              {" "}
               <ul>
+                <li>
+                  What are the political ties and ESG record of a major Austrian
+                  business?
+                </li>
                 <li>
                   How does a municipality in the Iberian Peninsula view foreign
                   investors?
@@ -70,7 +79,7 @@ const Projects = () => {
                 </li>
               </ul>
             </SwiperSlide>
-          </Swiper> */}
+          </Swiper>
         </div>
         <div className={classes.MobileList}>
           <ul>
