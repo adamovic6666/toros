@@ -12,13 +12,7 @@ const WhoWeAre = () => {
         <div className={classes.ContentWrapper}>
           <div className={classes.CardWrapper}>
             <div className={classes.ImageWrapper}>
-              <Image
-                layout="fill"
-                alt="card-image"
-                src="/assets/andrew.jpg"
-                objectFit="cover"
-                objectPosition="bottom"
-              />
+              <img src="/assets/andrew.jpg" alt="card-image" />
             </div>
             <div>
               <h4>
@@ -69,12 +63,7 @@ const WhoWeAre = () => {
         <div className={classes.ContentWrapper}>
           <div className={classes.CardWrapper}>
             <div className={classes.ImageWrapper}>
-              <Image
-                layout="fill"
-                alt="card-image"
-                src="/assets/souhir.jpg"
-                objectFit="cover"
-              />
+              <img src="/assets/souhir.jpg" alt="card-image" />
             </div>
 
             <div>

@@ -10,7 +10,7 @@
   z-index: -1;
   position: absolute;
   left: 0%;
-  top: -95px;
+  top: -75px;
 }
 
 .ContactImage {
@@ -25,7 +25,7 @@
 .DetailsWrapper {
   background-color: #e3e3e3;
   width: 100%;
-  padding: 64px 0 64px 16px;
+  padding: 64px 16px;
 }
 
 .Logo span:nth-of-type(1),
@@ -79,13 +79,10 @@
   height: 100%;
 }
 
-@media only screen and (min-width: 600px) {
-}
-
 @media only screen and (min-width: 768px) {
-}
-
-@media only screen and (min-width: 992px) {
+  .DetailsWrapper {
+    padding: 64px 32px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -126,6 +123,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .ContactWrapper > span {
+    top: -95px;
   }
 }
 

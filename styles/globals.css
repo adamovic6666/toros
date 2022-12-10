@@ -179,6 +179,47 @@ svg:hover path {
   fill: var(--secondary-color);
 }
 
+.awssld__content {
+  background-color: transparent !important;
+  height: 100% !important;
+}
+
+.awssld {
+  height: 100% !important;
+}
+
+.awssld__content div {
+  display: flex !important;
+  gap: 32px !important;
+  flex-direction: column !important;
+  font-size: 18px !important;
+  max-width: 600px !important;
+  color: var(--text-color-dark) !important;
+}
+
+.awssld__content div li {
+  line-height: 140%;
+}
+
+.awssld__bullets {
+  bottom: 40px !important;
+}
+.awssld__bullets button {
+  background-color: var(--text-color-dark);
+  opacity: 0.3 !important;
+}
+
+.awssld__bullets .awssld__bullets--active {
+  background-color: var(--text-color-dark) !important;
+  opacity: 1 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .body {
     min-height: 0vw;
@@ -195,5 +236,17 @@ svg:hover path {
 @media screen and (min-width: 1560px) {
   body {
     font-size: 0.90625em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-y: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
   }
 }

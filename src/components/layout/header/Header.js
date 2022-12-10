@@ -5,10 +5,13 @@ import Logo from "../../ui/Logo";
 import classes from "./Header.module.css";
 import MobileNav from "./MobileNav";
 import { NAV_LINKS } from "../../../pageData/data";
+import { useRouter } from "next/router";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
   const [headerIsVisible, setHeaderIsVisible] = useState(false);
+  const router = useRouter();
+  const isMainPage = router.pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => setHeaderIsVisible(window.pageYOffset > 1);
@@ -20,14 +23,30 @@ const Header = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.height = "100vh";
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.height = "auto";
+      document.body.style.overflowY = "auto";
+    }
+  }, [isOpen]);
+
   return (
     <>
+      <MobileNav
+        isOpen={isOpen}
+        setOpen={() => {
+          setOpen(false);
+        }}
+      />
       <header
-        className={`${classes.Header} ${classes.Initial} ${
-          headerIsVisible ? classes.Close : ""
-        }`}
+        className={`${classes.Header} ${isOpen ? classes.OpenNav : ""}  ${
+          isMainPage ? classes.Initial : classes.PrivacyHeader
+        } ${headerIsVisible ? classes.Close : ""}`}
       >
-        <div className={`${classes.NavWrapper} container`}>
+        <div className={`${classes.NavWrapper} $ container`}>
           <Logo headerIsVisible={headerIsVisible} />
           <nav className={classes.Nav}>
             <ul className={classes.NavList}>
@@ -38,19 +57,13 @@ const Header = () => {
               ))}
             </ul>
           </nav>
-          <MobileNav
-            isOpen={isOpen}
-            setOpen={() => {
-              setOpen(false);
-            }}
-          />
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
       </header>
       <header
-        className={`${classes.Header} ${classes.OnScroll} ${
-          headerIsVisible ? classes.Open : ""
-        }`}
+        className={`${classes.Header} ${isOpen ? classes.OpenNav : ""}  ${
+          classes.OnScroll
+        } ${headerIsVisible ? classes.Open : ""}`}
       >
         <div className={`${classes.NavWrapper} container`}>
           <Logo headerIsVisible={headerIsVisible} />
@@ -63,12 +76,6 @@ const Header = () => {
               ))}
             </ul>
           </nav>
-          <MobileNav
-            isOpen={isOpen}
-            setOpen={() => {
-              setOpen(false);
-            }}
-          />
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
       </header>
