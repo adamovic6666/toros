@@ -12,12 +12,17 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 38px;
   text-align: center;
   animation: fade-in 4s ease-in-out;
   text-transform: capitalize;
   font-weight: 600;
   text-shadow: -4px 4px 4px #00000065;
+  width: 100%;
+}
+
+.Hero h1 span {
+  display: block;
 }
 
 .Parallax {
@@ -32,10 +37,21 @@
   /* will-change: transform; */
 }
 
+@media only screen and (min-width: 768px) {
+  .Hero h1 {
+    width: max-content;
+    font-size: 48px;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .Hero h1 {
     width: max-content;
     font-size: 64px;
+  }
+
+  .Hero h1 span {
+    display: inline;
   }
 }
 

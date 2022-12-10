@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: calc(100% - 32px);
+  width: calc(100% - 48px);
   justify-content: center;
   gap: 80px;
 }
@@ -38,7 +38,7 @@
 }
 
 .TextWrapper p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 140%;
   color: var(--text-color-dark);
 }
@@ -52,6 +52,8 @@
   height: max-content;
   border-radius: 12px;
   overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .CardWrapper > div:nth-of-type(2) {
@@ -95,7 +97,7 @@
 .ImageWrapper {
   position: relative;
   width: 100%;
-  height: 369px;
+  height: 309px;
 }
 
 .ImageWrapper img {

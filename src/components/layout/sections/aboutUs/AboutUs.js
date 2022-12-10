@@ -14,8 +14,7 @@ const About = () => {
         <div>
           <p>
             Toros Advisory helps clients identify opportunity and manage risk in
-            markets around the world. We help organisations enter new markets,
-            form partnerships, and defend deal value.
+            markets around the world.
           </p>
           <p>
             We update clients on policy outlook and political risk in a wide
