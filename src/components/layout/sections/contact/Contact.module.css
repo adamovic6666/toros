@@ -26,7 +26,7 @@
   background-color: #e3e3e3;
   width: 100%;
   padding: 64px 16px;
-  height: 50vh;
+  height: auto;
 }
 
 .Logo span:nth-of-type(1),
