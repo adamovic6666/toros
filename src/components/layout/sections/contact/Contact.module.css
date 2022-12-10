@@ -85,7 +85,7 @@
 }
 
 .DetailsWrapper .Place {
-  display: flex;
+  flex-direction: column;
 }
 
 .DetailsWrapper .Place p {

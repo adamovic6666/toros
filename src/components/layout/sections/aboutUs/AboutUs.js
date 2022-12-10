@@ -5,10 +5,12 @@ const About = () => {
     <div className={classes.About}>
       <span id="about"></span>
       <div className={classes.AboutHeadingWrapper}>
-        <h3>
-          Toros Advisory helps organisations enter new markets, form
-          partnerships, and defend deal value.
-        </h3>
+        <div>
+          <h3>
+            Toros Advisory helps organisations enter new markets, form
+            partnerships, and defend deal value.
+          </h3>
+        </div>
       </div>
       <div className={classes.AboutTextWrapper}>
         <div>

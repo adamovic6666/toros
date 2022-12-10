@@ -52,7 +52,7 @@
   height: max-content;
   border-radius: 12px;
   overflow: hidden;
-  width: 60%;
+  width: 200px;
   margin: 0 auto;
   max-width: 220px;
 }
@@ -67,7 +67,7 @@
 }
 
 .CardWrapper > div h4 {
-  font-size: 32px;
+  font-size: 24px;
   line-height: 32px;
   color: var(--secondary-color);
 }
@@ -138,8 +138,7 @@
   }
 
   .ImageWrapper {
-    width: fit-content;
-    height: 300px;
+    height: 280px;
   }
 
   .ImageWrapper img {

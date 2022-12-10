@@ -34,6 +34,10 @@
   right: 0px;
 }
 
+.Footer p span {
+  display: block;
+}
+
 @media only screen and (min-width: 768px) {
 }
 
@@ -47,5 +51,9 @@
 @media only screen and (min-width: 1280px) {
   .Footer > div {
     flex-direction: row;
+  }
+
+  .Footer p span {
+    display: inline;
   }
 }
