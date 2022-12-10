@@ -44,7 +44,7 @@
   font-weight: 400;
   color: #ffffff;
   max-width: 460px;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .AboutTextWrapper p {
@@ -97,6 +97,7 @@
   .AboutHeadingWrapper,
   .AboutTextWrapper {
     padding: 0;
+    height: 100%;
   }
 
   .AboutHeadingWrapper h3 {

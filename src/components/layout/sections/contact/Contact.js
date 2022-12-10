@@ -16,8 +16,12 @@ const Contact = () => {
             </p>
           </div>
           <span>Registered address</span>
+          <div className={classes.Place}>
+            <p>3rd Floor &nbsp;</p>
+            <p>Chancery House</p>
+          </div>
           <p>
-            3rd Floor <br /> Chancery House <br /> St Nicholas Way <br /> Sutton{" "}
+            St Nicholas Way <br /> Sutton
             <br /> SM1 1JB <br /> United Kingdom
           </p>
           <div className={classes.LinksWrapper}>
