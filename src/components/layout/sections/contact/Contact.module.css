@@ -71,12 +71,12 @@
 
 .LinksWrapper {
   display: flex;
-  gap: 16px;
+  gap: 8px;
 }
 
 .LinksWrapper a {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 .LinksWrapper a svg {
@@ -140,6 +140,16 @@
 
   .ContactWrapper > span {
     top: -95px;
+  }
+
+  .LinksWrapper a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .LinksWrapper {
+    display: flex;
+    gap: 16px;
   }
 }
 

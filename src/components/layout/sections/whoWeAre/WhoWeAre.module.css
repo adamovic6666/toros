@@ -81,18 +81,18 @@
 
 .CardWrapper > div div {
   display: flex;
-  gap: 16px;
+  gap: 8px;
   align-items: center;
 }
 
 .CardWrapper a {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 .CardWrapper svg {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 .ImageWrapper {
@@ -143,5 +143,19 @@
 
   .ImageWrapper img {
     object-fit: contain;
+  }
+
+  .CardWrapper a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .CardWrapper svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .CardWrapper > div div {
+    gap: 16px;
   }
 }
