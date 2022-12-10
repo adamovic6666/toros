@@ -61,7 +61,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Georgia";
+  font-family: "Georgia-pro";
   font-style: normal;
   font-weight: 400;
 }
@@ -98,11 +98,15 @@ a {
 
 p {
   margin: 0px;
-  font-family: "Georgia";
+  font-family: "Georgia-pro";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: var(--text-color-dark);
+}
+
+li {
+  font-family: "Georgia-pro";
 }
 
 .hamburger-react {
