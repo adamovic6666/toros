@@ -124,20 +124,19 @@
 
   .CardWrapper {
     margin: 0;
-    max-width: 220px;
+    /* max-width: 220px; */
   }
 
   .ContentWrapper > div {
     width: 50%;
-    max-width: 220px;
+    /* max-width: 220px; */
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .ContentWrapper {
-    max-width: 732px;
+    max-width: 1124px;
     gap: 0px;
-    justify-content: flex-end;
   }
 
   .CardWrapper {
