@@ -1,6 +1,7 @@
 import classes from "./Contact.module.css";
 import LinkedIn from "../../../svgs/LinkedIn";
 import Mail from "../../../svgs/Mail";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -10,10 +11,13 @@ const Contact = () => {
       <div className={classes.DetailsWrapper}>
         <div>
           <div className={classes.Logo}>
-            <p>
-              <span>Toros</span>
-              <br /> <span>Advisory</span>
-            </p>
+            <Image
+              layout="fill"
+              src="/assets/toros-secondary.png"
+              // src="/assets/toros-secondary.png"
+              alt="logo-secondry"
+              objectFit="cover"
+            />
           </div>
           <span>Registered address</span>
           <div className={classes.Place}>

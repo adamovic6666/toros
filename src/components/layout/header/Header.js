@@ -47,7 +47,7 @@ const Header = () => {
         } ${headerIsVisible ? classes.Close : ""}`}
       >
         <div className={`${classes.NavWrapper} $ container`}>
-          <Logo headerIsVisible={headerIsVisible} />
+          <Logo isWhite={true} />
           <nav className={classes.Nav}>
             <ul className={classes.NavList}>
               {NAV_LINKS.map(({ name, id, href }) => (
@@ -66,7 +66,7 @@ const Header = () => {
         } ${headerIsVisible ? classes.Open : ""}`}
       >
         <div className={`${classes.NavWrapper} container`}>
-          <Logo headerIsVisible={headerIsVisible} />
+          <Logo isWhite={false} />
           <nav className={classes.Nav}>
             <ul className={classes.NavList}>
               {NAV_LINKS.map(({ name, id, href }) => (

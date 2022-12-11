@@ -8,33 +8,37 @@ const SEO = ({ metaTitle, metaDescription }) => {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
         />
+        <meta
+          name="keywords"
+          content="Due diligence Balkans, Due diligence North Africa"
+        />
       </Head>
       <NextSeo
         title={metaTitle}
         description={metaDescription}
-        canonical="https://replastic.vercel.app/"
+        canonical="https://toros.vercel.app/"
         openGraph={{
-          url: "https://replastic.vercel.app/",
-          title: "REPLASTIC | Otkup i reciklaža plastike",
+          url: "https://toros.vercel.app/",
+          title: "Toros Advisory | Strategic Insights",
           description:
-            "Savremeni sertifikovani reciklažni centar za otkup i reciklažu plastike. Prodaja premijum regranulata po najboljim cenama",
+            "Toros Advisory helps organisations enter new markets, form partnerships, and defend deal value.",
           images: [
             {
-              url: "https://replastic.vercel.app/about-img.png",
+              url: "https://toros.vercel.app/toros-share.png",
               width: 800,
               height: 600,
               alt: "og-image",
               type: "image/png",
             },
             {
-              url: "https://replastic.vercel.app/about-img.png",
+              url: "https://toros.vercel.app/toros-share.png",
               width: 900,
               height: 800,
               alt: "og-image-2",
               type: "image/png",
             },
           ],
-          site_name: "https://replastic.rs",
+          site_name: "https://toros.vercel.app",
         }}
       />
     </>

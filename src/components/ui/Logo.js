@@ -1,14 +1,14 @@
 import classes from "./Logo.module.css";
+import Image from "next/image";
 
-const Logo = ({ headerIsVisible }) => {
+const Logo = ({ isWhite }) => {
   return (
     <div
       className={`${classes.Logo} ${
-        headerIsVisible ? classes.RegularColor : ""
+        !isWhite ? classes.RegularColor : classes.White
       }`}
     >
-      <span>Toros</span>
-      <span>Advisory</span>
+      <Image src="/assets/logo.png" width={150} height={23} />
     </div>
   );
 };

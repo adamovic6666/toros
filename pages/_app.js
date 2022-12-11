@@ -7,24 +7,24 @@ import { useEffect } from "react";
 import * as gtag from "../src/lib/gtag";
 
 function MyApp({ Component, pageProps }) {
-  // const router = useRouter();
+  const router = useRouter();
 
-  // useEffect(() => {
-  //   const handleRouteChange = (url) => {
-  //     gtag.pageview(url);
-  //   };
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
 
-  //   router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on("routeChangeComplete", handleRouteChange);
 
-  //   return () => {
-  //     router.events.off("routeChangeComplete", handleRouteChange);
-  //   };
-  // }, [router.events]);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <>
       {/* <!-- Google tag (gtag.js) --> */}
-      {/* <Script
+      <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }) {
           });
         `,
         }}
-      /> */}
+      />
 
       <Layout>
         <Component {...pageProps} />
