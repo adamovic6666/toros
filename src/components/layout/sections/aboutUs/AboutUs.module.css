@@ -83,8 +83,14 @@
     max-width: 560px;
   }
 
-  .AboutTextWrapper > div > p {
-    text-align: center;
+  .AboutTextWrapper {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .AboutTextWrapper > div {
+    margin: 0;
+    padding-left: 8px;
   }
 }
 
@@ -112,6 +118,15 @@
 
   .AboutHeadingWrapper {
     justify-content: flex-end;
+  }
+
+  .AboutTextWrapper {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AboutTextWrapper > div {
+    padding-left: 0px;
   }
 
   .AboutTextWrapper > div > p {
