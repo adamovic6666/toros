@@ -27,7 +27,7 @@ const GetInTouch = () => {
 
   return (
     <div className={classes.GetInTouch}>
-      <h3>Get in touch</h3>
+      <h3>Work with us</h3>
       <p>
         To hear more about our services, and to discuss potential projects,
         please get in touch.

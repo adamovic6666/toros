@@ -12,13 +12,13 @@ const Services = () => {
           <div>
             <h4>Market entry and political risk</h4>
             <p>
-              We help companies understand new markets around the world conduct
-              qualitative research based on conversations with decision-makers
-              and sector experts. Recently we have provided reports on
-              pharmaceuticals in a major North African market, EU R&D policy,
-              the regional politics of a Gulf jurisdiction, and how a municipal
-              government in Iberia views foreign investors. We&apos;ve also
-              advised UHNWIs on the media landscape around decentralised
+              We help companies understand new markets around the world. We
+              conduct qualitative research based on conversations with
+              decision-makers and sector experts. Recently we have provided
+              reports on pharmaceuticals in a major North African market; EU R&D
+              policy; the regional politics of a Gulf jurisdiction; and how a
+              municipal government in Iberia views foreign investors. We&apos;ve
+              also advised UHNWIs on the media landscape around decentralised
               finance, and shaped strategy on establishing a new news service
               covering the industry.
             </p>

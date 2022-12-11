@@ -57,10 +57,6 @@ const Projects = () => {
             <SwiperSlide>
               <ul>
                 <li>
-                  What are the political ties and ESG record of a major Austrian
-                  business?
-                </li>
-                <li>
                   How does a municipality in the Iberian Peninsula view foreign
                   investors?
                 </li>
