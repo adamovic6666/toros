@@ -11,6 +11,7 @@ const Projects = () => {
   return (
     <div className={classes.Projects}>
       <span id="projects"></span>
+
       <div className={classes.ProjectsListWrapper}>
         <div className={classes.Slider}>
           <Swiper
