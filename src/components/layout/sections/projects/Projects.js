@@ -37,8 +37,8 @@ const Projects = () => {
                   Romania?
                 </li>
                 <li>
-                  What are the risks involved in exporting pharmaceuticals to
-                  North Africa?
+                  What are the political risks involved in exporting
+                  pharmaceuticals to North Africa?
                 </li>
                 <li>
                   Why has a €220m+ deal in the Adriatic region run into trouble?
@@ -84,8 +84,8 @@ const Projects = () => {
               What is the outlook for renewable energy in Poland and Romania?
             </li>
             <li>
-              What are the risks involved in exporting pharmaceuticals to North
-              Africa?
+              What are the political risks involved in exporting pharmaceuticals
+              to North Africa?
             </li>
             <li>
               Why has a €220m+ deal in the Adriatic region run into trouble? Who

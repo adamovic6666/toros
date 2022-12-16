@@ -24,18 +24,11 @@ const SEO = ({ metaTitle, metaDescription }) => {
             "Toros Advisory helps organisations enter new markets, form partnerships, and defend deal value.",
           images: [
             {
-              url: "https://toros.vercel.app/toros-share.png",
+              url: "https://toros.vercel.app/share.jpg",
               width: 800,
               height: 600,
               alt: "og-image",
-              type: "image/png",
-            },
-            {
-              url: "https://toros.vercel.app/toros-share.png",
-              width: 900,
-              height: 800,
-              alt: "og-image-2",
-              type: "image/png",
+              type: "image/jpg",
             },
           ],
           site_name: "https://toros.vercel.app",
